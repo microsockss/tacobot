@@ -29,8 +29,8 @@ async def commandHandler():
 
 async def run():
         await client.wait_until_ready()
+        print('LOGGED IN SUCCESSFULLY')
         while not client.is_closed:
-                print('LOGGED IN SUCCESSFULLY')
                 botMessage = await client.send_message(channel, prefix + 'tip')
                 print('Sent: ' + prefix + 'tip')
                 botMessage = await client.send_message(channel, prefix + 'work')
