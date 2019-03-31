@@ -1,8 +1,6 @@
 import discord
 import asyncio
-import logging
 import string
-import random
 
 email = ('DISCORD EMAIL')
 password = ('DISCORD PASSWORD')
@@ -56,5 +54,4 @@ async def scratch():
                 await asyncio.sleep(8)
 
 client.loop.create_task(run())
-#client.loop.create_task(commandHandler())
 client.run(email, password)
