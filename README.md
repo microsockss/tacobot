@@ -1,5 +1,5 @@
 # tacobot
-Taco Shack automation script written in python
+Automation script for the <a href="https://discordbots.org/bot/490707751832649738">Taco Shack discord bot</a>.
 
 # Requirements
 * Python 3.6
